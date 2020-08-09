@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: authentication
-        image:  pensionmanagement.azurecr.io/authentication:latest
+        image:  pensionmanagement.azurecr.io/authenticate:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
